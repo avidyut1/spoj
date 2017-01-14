@@ -57,38 +57,38 @@ include CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/src.dir/flags.make
 
-CMakeFiles/src.dir/main.cpp.o: CMakeFiles/src.dir/flags.make
-CMakeFiles/src.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/main.cpp.o -c /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/main.cpp
+CMakeFiles/src.dir/Acode.cpp.o: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Acode.cpp.o: ../Acode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/Acode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/Acode.cpp.o -c /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Acode.cpp
 
-CMakeFiles/src.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/main.cpp > CMakeFiles/src.dir/main.cpp.i
+CMakeFiles/src.dir/Acode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Acode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Acode.cpp > CMakeFiles/src.dir/Acode.cpp.i
 
-CMakeFiles/src.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/main.cpp -o CMakeFiles/src.dir/main.cpp.s
+CMakeFiles/src.dir/Acode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Acode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Acode.cpp -o CMakeFiles/src.dir/Acode.cpp.s
 
-CMakeFiles/src.dir/main.cpp.o.requires:
+CMakeFiles/src.dir/Acode.cpp.o.requires:
 
-.PHONY : CMakeFiles/src.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/src.dir/Acode.cpp.o.requires
 
-CMakeFiles/src.dir/main.cpp.o.provides: CMakeFiles/src.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/src.dir/main.cpp.o.provides
+CMakeFiles/src.dir/Acode.cpp.o.provides: CMakeFiles/src.dir/Acode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Acode.cpp.o.provides.build
+.PHONY : CMakeFiles/src.dir/Acode.cpp.o.provides
 
-CMakeFiles/src.dir/main.cpp.o.provides.build: CMakeFiles/src.dir/main.cpp.o
+CMakeFiles/src.dir/Acode.cpp.o.provides.build: CMakeFiles/src.dir/Acode.cpp.o
 
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/main.cpp.o"
+"CMakeFiles/src.dir/Acode.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-src: CMakeFiles/src.dir/main.cpp.o
+src: CMakeFiles/src.dir/Acode.cpp.o
 src: CMakeFiles/src.dir/build.make
 src: CMakeFiles/src.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable src"
@@ -99,7 +99,7 @@ CMakeFiles/src.dir/build: src
 
 .PHONY : CMakeFiles/src.dir/build
 
-CMakeFiles/src.dir/requires: CMakeFiles/src.dir/main.cpp.o.requires
+CMakeFiles/src.dir/requires: CMakeFiles/src.dir/Acode.cpp.o.requires
 
 .PHONY : CMakeFiles/src.dir/requires
 

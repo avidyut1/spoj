@@ -123,32 +123,32 @@ src/fast:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-main.o: main.cpp.o
+Acode.o: Acode.cpp.o
 
-.PHONY : main.o
+.PHONY : Acode.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.o
-.PHONY : main.cpp.o
+Acode.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Acode.cpp.o
+.PHONY : Acode.cpp.o
 
-main.i: main.cpp.i
+Acode.i: Acode.cpp.i
 
-.PHONY : main.i
+.PHONY : Acode.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.i
-.PHONY : main.cpp.i
+Acode.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Acode.cpp.i
+.PHONY : Acode.cpp.i
 
-main.s: main.cpp.s
+Acode.s: Acode.cpp.s
 
-.PHONY : main.s
+.PHONY : Acode.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.s
-.PHONY : main.cpp.s
+Acode.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Acode.cpp.s
+.PHONY : Acode.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Acode.o"
+	@echo "... Acode.i"
+	@echo "... Acode.s"
 .PHONY : help
 
 
