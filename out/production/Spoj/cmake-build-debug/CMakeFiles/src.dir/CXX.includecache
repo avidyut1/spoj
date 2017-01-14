@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Absys.cpp
+stdio.h
+-
+iostream
+-
+string
+-
+
