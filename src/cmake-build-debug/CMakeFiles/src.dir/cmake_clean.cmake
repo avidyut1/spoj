@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/Updateit.cpp.o"
+  "CMakeFiles/src.dir/main.cpp.o"
   "src.pdb"
   "src"
 )

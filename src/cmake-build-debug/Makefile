@@ -123,32 +123,32 @@ src/fast:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-Updateit.o: Updateit.cpp.o
+main.o: main.cpp.o
 
-.PHONY : Updateit.o
+.PHONY : main.o
 
 # target to build an object file
-Updateit.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Updateit.cpp.o
-.PHONY : Updateit.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-Updateit.i: Updateit.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Updateit.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Updateit.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Updateit.cpp.i
-.PHONY : Updateit.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Updateit.s: Updateit.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Updateit.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Updateit.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Updateit.cpp.s
-.PHONY : Updateit.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... Updateit.o"
-	@echo "... Updateit.i"
-	@echo "... Updateit.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Updateit.cpp
+/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Absys.cpp
+stdio.h
+-
 iostream
 -
-algorithm
--
-vector
--
-stdio.h
+string
 -
 
