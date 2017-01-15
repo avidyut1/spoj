@@ -3,5 +3,5 @@ project(src)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Acs.cpp)
+set(SOURCE_FILES Highways.cpp)
 add_executable(src ${SOURCE_FILES})
