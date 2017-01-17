@@ -123,32 +123,32 @@ src/fast:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-Highways.o: Highways.cpp.o
+Aggrcow.o: Aggrcow.cpp.o
 
-.PHONY : Highways.o
+.PHONY : Aggrcow.o
 
 # target to build an object file
-Highways.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Highways.cpp.o
-.PHONY : Highways.cpp.o
+Aggrcow.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Aggrcow.cpp.o
+.PHONY : Aggrcow.cpp.o
 
-Highways.i: Highways.cpp.i
+Aggrcow.i: Aggrcow.cpp.i
 
-.PHONY : Highways.i
+.PHONY : Aggrcow.i
 
 # target to preprocess a source file
-Highways.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Highways.cpp.i
-.PHONY : Highways.cpp.i
+Aggrcow.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Aggrcow.cpp.i
+.PHONY : Aggrcow.cpp.i
 
-Highways.s: Highways.cpp.s
+Aggrcow.s: Aggrcow.cpp.s
 
-.PHONY : Highways.s
+.PHONY : Aggrcow.s
 
 # target to generate assembly for a file
-Highways.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Highways.cpp.s
-.PHONY : Highways.cpp.s
+Aggrcow.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Aggrcow.cpp.s
+.PHONY : Aggrcow.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... Highways.o"
-	@echo "... Highways.i"
-	@echo "... Highways.s"
+	@echo "... Aggrcow.o"
+	@echo "... Aggrcow.i"
+	@echo "... Aggrcow.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/Highways.cpp.o"
+  "CMakeFiles/src.dir/Aggrcow.cpp.o"
   "src.pdb"
   "src"
 )
