@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Aggrcow.cpp" "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles/src.dir/Aggrcow.cpp.o"
+  "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Chefch.cpp" "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles/src.dir/Chefch.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

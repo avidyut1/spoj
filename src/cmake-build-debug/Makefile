@@ -123,32 +123,32 @@ src/fast:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-Aggrcow.o: Aggrcow.cpp.o
+Chefch.o: Chefch.cpp.o
 
-.PHONY : Aggrcow.o
+.PHONY : Chefch.o
 
 # target to build an object file
-Aggrcow.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Aggrcow.cpp.o
-.PHONY : Aggrcow.cpp.o
+Chefch.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Chefch.cpp.o
+.PHONY : Chefch.cpp.o
 
-Aggrcow.i: Aggrcow.cpp.i
+Chefch.i: Chefch.cpp.i
 
-.PHONY : Aggrcow.i
+.PHONY : Chefch.i
 
 # target to preprocess a source file
-Aggrcow.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Aggrcow.cpp.i
-.PHONY : Aggrcow.cpp.i
+Chefch.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Chefch.cpp.i
+.PHONY : Chefch.cpp.i
 
-Aggrcow.s: Aggrcow.cpp.s
+Chefch.s: Chefch.cpp.s
 
-.PHONY : Aggrcow.s
+.PHONY : Chefch.s
 
 # target to generate assembly for a file
-Aggrcow.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Aggrcow.cpp.s
-.PHONY : Aggrcow.cpp.s
+Chefch.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Chefch.cpp.s
+.PHONY : Chefch.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... Aggrcow.o"
-	@echo "... Aggrcow.i"
-	@echo "... Aggrcow.s"
+	@echo "... Chefch.o"
+	@echo "... Chefch.i"
+	@echo "... Chefch.s"
 .PHONY : help
 
 

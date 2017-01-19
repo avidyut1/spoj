@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/Aggrcow.cpp.o"
+  "CMakeFiles/src.dir/Chefch.cpp.o"
   "src.pdb"
   "src"
 )
