@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Chefch.cpp
+/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Main113.cpp
 iostream
 -
 vector
@@ -20,7 +20,5 @@ string
 stdlib.h
 -
 queue
--
-climits
 -
 

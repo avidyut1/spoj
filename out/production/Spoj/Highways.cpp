@@ -17,7 +17,7 @@ struct Distkey{
 class Comparator{
 public:
     bool operator()(Distkey& d1, Distkey& d2) {
-        return d1.dist < d2.dist;
+        return d1.dist > d2.dist;
     }
 };
 int main() {
