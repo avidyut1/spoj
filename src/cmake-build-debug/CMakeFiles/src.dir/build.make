@@ -57,38 +57,38 @@ include CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/src.dir/flags.make
 
-CMakeFiles/src.dir/Main113.cpp.o: CMakeFiles/src.dir/flags.make
-CMakeFiles/src.dir/Main113.cpp.o: ../Main113.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/Main113.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/Main113.cpp.o -c /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Main113.cpp
+CMakeFiles/src.dir/Equality.cpp.o: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Equality.cpp.o: ../Equality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/Equality.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/Equality.cpp.o -c /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp
 
-CMakeFiles/src.dir/Main113.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Main113.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Main113.cpp > CMakeFiles/src.dir/Main113.cpp.i
+CMakeFiles/src.dir/Equality.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Equality.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp > CMakeFiles/src.dir/Equality.cpp.i
 
-CMakeFiles/src.dir/Main113.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Main113.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Main113.cpp -o CMakeFiles/src.dir/Main113.cpp.s
+CMakeFiles/src.dir/Equality.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Equality.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp -o CMakeFiles/src.dir/Equality.cpp.s
 
-CMakeFiles/src.dir/Main113.cpp.o.requires:
+CMakeFiles/src.dir/Equality.cpp.o.requires:
 
-.PHONY : CMakeFiles/src.dir/Main113.cpp.o.requires
+.PHONY : CMakeFiles/src.dir/Equality.cpp.o.requires
 
-CMakeFiles/src.dir/Main113.cpp.o.provides: CMakeFiles/src.dir/Main113.cpp.o.requires
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Main113.cpp.o.provides.build
-.PHONY : CMakeFiles/src.dir/Main113.cpp.o.provides
+CMakeFiles/src.dir/Equality.cpp.o.provides: CMakeFiles/src.dir/Equality.cpp.o.requires
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Equality.cpp.o.provides.build
+.PHONY : CMakeFiles/src.dir/Equality.cpp.o.provides
 
-CMakeFiles/src.dir/Main113.cpp.o.provides.build: CMakeFiles/src.dir/Main113.cpp.o
+CMakeFiles/src.dir/Equality.cpp.o.provides.build: CMakeFiles/src.dir/Equality.cpp.o
 
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/Main113.cpp.o"
+"CMakeFiles/src.dir/Equality.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-src: CMakeFiles/src.dir/Main113.cpp.o
+src: CMakeFiles/src.dir/Equality.cpp.o
 src: CMakeFiles/src.dir/build.make
 src: CMakeFiles/src.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable src"
@@ -99,7 +99,7 @@ CMakeFiles/src.dir/build: src
 
 .PHONY : CMakeFiles/src.dir/build
 
-CMakeFiles/src.dir/requires: CMakeFiles/src.dir/Main113.cpp.o.requires
+CMakeFiles/src.dir/requires: CMakeFiles/src.dir/Equality.cpp.o.requires
 
 .PHONY : CMakeFiles/src.dir/requires
 

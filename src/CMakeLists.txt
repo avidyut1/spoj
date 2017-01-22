@@ -3,5 +3,5 @@ project(src)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Main113.cpp)
+set(SOURCE_FILES Equality.cpp)
 add_executable(src ${SOURCE_FILES})
