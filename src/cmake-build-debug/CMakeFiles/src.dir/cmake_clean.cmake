@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/Equality.cpp.o"
+  "CMakeFiles/src.dir/Maandi.cpp.o"
   "src.pdb"
   "src"
 )

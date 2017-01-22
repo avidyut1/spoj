@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp">
+		<Unit filename="/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Maandi.cpp">
 			<Option target="src"/>
 		</Unit>
 		<Unit filename="/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/CMakeLists.txt">

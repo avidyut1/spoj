@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp" "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles/src.dir/Equality.cpp.o"
+  "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Maandi.cpp" "/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles/src.dir/Maandi.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

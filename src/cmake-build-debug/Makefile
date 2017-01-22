@@ -123,32 +123,32 @@ src/fast:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-Equality.o: Equality.cpp.o
+Maandi.o: Maandi.cpp.o
 
-.PHONY : Equality.o
+.PHONY : Maandi.o
 
 # target to build an object file
-Equality.cpp.o:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Equality.cpp.o
-.PHONY : Equality.cpp.o
+Maandi.cpp.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Maandi.cpp.o
+.PHONY : Maandi.cpp.o
 
-Equality.i: Equality.cpp.i
+Maandi.i: Maandi.cpp.i
 
-.PHONY : Equality.i
+.PHONY : Maandi.i
 
 # target to preprocess a source file
-Equality.cpp.i:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Equality.cpp.i
-.PHONY : Equality.cpp.i
+Maandi.cpp.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Maandi.cpp.i
+.PHONY : Maandi.cpp.i
 
-Equality.s: Equality.cpp.s
+Maandi.s: Maandi.cpp.s
 
-.PHONY : Equality.s
+.PHONY : Maandi.s
 
 # target to generate assembly for a file
-Equality.cpp.s:
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Equality.cpp.s
-.PHONY : Equality.cpp.s
+Maandi.cpp.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Maandi.cpp.s
+.PHONY : Maandi.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... Equality.o"
-	@echo "... Equality.i"
-	@echo "... Equality.s"
+	@echo "... Maandi.o"
+	@echo "... Maandi.i"
+	@echo "... Maandi.s"
 .PHONY : help
 
 

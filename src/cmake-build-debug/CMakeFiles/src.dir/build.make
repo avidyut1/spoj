@@ -57,38 +57,38 @@ include CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/src.dir/flags.make
 
-CMakeFiles/src.dir/Equality.cpp.o: CMakeFiles/src.dir/flags.make
-CMakeFiles/src.dir/Equality.cpp.o: ../Equality.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/Equality.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/Equality.cpp.o -c /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp
+CMakeFiles/src.dir/Maandi.cpp.o: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Maandi.cpp.o: ../Maandi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/Maandi.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/Maandi.cpp.o -c /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Maandi.cpp
 
-CMakeFiles/src.dir/Equality.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Equality.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp > CMakeFiles/src.dir/Equality.cpp.i
+CMakeFiles/src.dir/Maandi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Maandi.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Maandi.cpp > CMakeFiles/src.dir/Maandi.cpp.i
 
-CMakeFiles/src.dir/Equality.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Equality.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Equality.cpp -o CMakeFiles/src.dir/Equality.cpp.s
+CMakeFiles/src.dir/Maandi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Maandi.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/Maandi.cpp -o CMakeFiles/src.dir/Maandi.cpp.s
 
-CMakeFiles/src.dir/Equality.cpp.o.requires:
+CMakeFiles/src.dir/Maandi.cpp.o.requires:
 
-.PHONY : CMakeFiles/src.dir/Equality.cpp.o.requires
+.PHONY : CMakeFiles/src.dir/Maandi.cpp.o.requires
 
-CMakeFiles/src.dir/Equality.cpp.o.provides: CMakeFiles/src.dir/Equality.cpp.o.requires
-	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Equality.cpp.o.provides.build
-.PHONY : CMakeFiles/src.dir/Equality.cpp.o.provides
+CMakeFiles/src.dir/Maandi.cpp.o.provides: CMakeFiles/src.dir/Maandi.cpp.o.requires
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/Maandi.cpp.o.provides.build
+.PHONY : CMakeFiles/src.dir/Maandi.cpp.o.provides
 
-CMakeFiles/src.dir/Equality.cpp.o.provides.build: CMakeFiles/src.dir/Equality.cpp.o
+CMakeFiles/src.dir/Maandi.cpp.o.provides.build: CMakeFiles/src.dir/Maandi.cpp.o
 
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/Equality.cpp.o"
+"CMakeFiles/src.dir/Maandi.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-src: CMakeFiles/src.dir/Equality.cpp.o
+src: CMakeFiles/src.dir/Maandi.cpp.o
 src: CMakeFiles/src.dir/build.make
 src: CMakeFiles/src.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asheshvidyut/Coding-Contests/Practice/Spoj/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable src"
@@ -99,7 +99,7 @@ CMakeFiles/src.dir/build: src
 
 .PHONY : CMakeFiles/src.dir/build
 
-CMakeFiles/src.dir/requires: CMakeFiles/src.dir/Equality.cpp.o.requires
+CMakeFiles/src.dir/requires: CMakeFiles/src.dir/Maandi.cpp.o.requires
 
 .PHONY : CMakeFiles/src.dir/requires
 
